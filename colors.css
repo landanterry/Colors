@@ -1,0 +1,54 @@
+/* CSS Colors */
+
+/* Colors Name */
+h1{
+    color: thistle;
+}
+
+/* Note CSS styles can be overridden the style that comes last in the CSS file will be applied */
+h1{
+    color: blue;
+}
+
+/* Hexadecimal colors */
+/* A hexadecimal number goes from zero to D */
+/* 0123456789ABCDEF */
+/* # + Six hexadecimal numbers */
+/* example #25E2F6 */
+
+/* First two positions determine the amount of Red */
+/* Second two positions determine the amount of Green */
+/* Third two positions determine the amount of Blue */
+
+/* Hexidecimal colors work as if there light not paints*/
+/* FFFFFF would be white */
+/* #000000 Black */
+
+/* Examples */
+h1{
+    /*This is Green  */
+    color: #00FF00;
+}
+
+h1{
+    /*This is Blue  */
+    color: #0000FF;
+}
+
+h1{
+    /* This is Red */
+    color: #FF0000;
+}
+
+/*Shorthand way to write hexadecimal color first two positsions must match second two positions must match and third must match  */
+h1{
+color: #000000;
+color: #000;
+}
+
+h1{
+    color: #1155CC;
+    color: #15C;
+}
+/* Transparency with hexadecimal colors */
+/*  */
